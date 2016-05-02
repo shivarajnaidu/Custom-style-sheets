@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Courgette';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Courgette Regular'), local('Courgette-Regular'), url(https://fonts.gstatic.com/s/courgette/v4/BHG8ZtTfO0yYnp02--QxqltXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+}
+
+#contentpoststyle{
+letter-spacing: 1px;
+word-spacing: 2px;
+color:#555;
+font-size:20px;
+line-height: 35px;
+display: block;
+box-sizing: border-box;
+}
+
+h1{
+font-size:40px ;
+font-family:"Courgette",verdana,Roboto,"Helvetica Neue","Helvetica",Arial,"San-serif";
+font-weight: 700;
+text-align: center;
+line-height: 45px;
+display: block;
+margin:auto;
+}
+
+h1 small{
+color:coral;
+}
+h2{
+color:#222;
+text-shadow:1px 2px 3px gray;
+line-height:35px;
+padding-top:25px;
+padding-bottom:8px;
+}
+
+
+code , .code{
+ background:#f4f4f4;
+ font-family:consolas,"Liberation Mono", Menlo, Courier,"courier new",UbuntuMono,monospace;
+ font-size:100%;
+ line-height:1.2em;
+ box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+ white-space:pre;
+ overflow:auto;
+ padding:1em;
+ margin-top:3px;
+ margin-bottom:10px;
+ width:98%;
+ display: block;
+ border-radius: 2px;
+}
+
+
+a#continuelinks{
+color:limegreen;
+font-size:20px;
+text-decoration:underline;
+text-shadow:1px 2px 3px green;
+animation:previouslinksanimation 2s infinite;
+ -webkit-animation:previouslinksanimation 2s infinite;
+}
+
+@keyframes previouslinksanimation{
+ 50%{color:#990000;
+text-shadow:1px 2px 3px gold;
+}
+
+@-webkit-keyframes previouslinksanimation{
+ 50%{color:#990000;
+text-shadow:1px 2px 3px gold;}
+}
+
+#img-uv{
+color: #aaa;
+ background-color: rgba(0,0,0,0.1);
+  display: block;
+  font-family: Roboto,"Helvetica Neue","Helvetica",Arial,"San-serif";
+  width: 770px;
+  height: 433px;
+  line-height: 20px;
+  margin:60px auto;
+  border:0px;
+  padding:0px;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+

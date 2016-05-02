@@ -1,0 +1,112 @@
+.heart-uv{
+text-align:center;
+font-size:27px;
+display:inline-block;
+width:30px;
+height:30px;
+color:red;
+animation: heartpulse 3s linear infinite;
+-webkit-animation: heartpulse 3s linear infinite;
+-moz-animation: heartpulse 3s linear infinite;
+-ms-animation: heartpulse 3s linear infinite;
+}
+
+@keyframes heartpulse {
+ 0% {
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -o-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    transform: scale(1,1);
+ }
+ 40% {
+    -webkit-transform: scale(1.7,1.7); text-shadow:0px 0px 5px pink;
+    -moz-transform: scale(1.7,1.7); text-shadow:0px 0px 5px pink;
+    -o-transform: scale(1.7,1.7); text-shadow:0px 0px 5px pink;
+    -ms-transform: scale(1.7,1.7); text-shadow:0px 0px 5px pink;
+    transform: scale(1.7,1.7); text-shadow:0px 0px 5px pink;
+ }
+ 100% {
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -o-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    transform: scale(1,1);
+ }
+
+}
+
+@-webkit-keyframes heartpulse {
+ 0% {
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -o-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    transform: scale(1,1);
+ }
+ 40% {
+    -webkit-transform: scale(1.7,1.7); text-shadow:0px 0px 5px pink;
+    -moz-transform: scale(1.7,1.7); text-shadow:0px 0px 5px pink;
+    -o-transform: scale(1.7,1.7); text-shadow:0px 0px 5px pink;
+    -ms-transform: scale(1.7,1.7); text-shadow:0px 0px 5px pink;
+    transform: scale(1.7,1.7); text-shadow:0px 0px 5px pink;
+ }
+ 100% {
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -o-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    transform: scale(1,1);
+ }
+
+}
+
+@-moz-keyframes heartpulse {
+ 0% {
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -o-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    transform: scale(1,1);
+ }
+ 40% {
+    -webkit-transform: scale(1.7,1.7); text-shadow:0px 0px 5px pink;
+    -moz-transform: scale(1.7,1.7); text-shadow:0px 0px 5px pink;
+    -o-transform: scale(1.7,1.7); text-shadow:0px 0px 5px pink;
+    -ms-transform: scale(1.7,1.7); text-shadow:0px 0px 5px pink;
+    transform: scale(1.7,1.7); text-shadow:0px 0px 5px pink;
+ }
+ 100% {
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -o-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    transform: scale(1,1);
+ }
+
+}
+
+@-ms-keyframes heartpulse {
+ 0% {
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -o-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    transform: scale(1,1);
+ }
+ 40% {
+     -webkit-transform: scale(1.7,1.7); text-shadow:0px 0px 5px pink;
+    -moz-transform: scale(1.7,1.7); text-shadow:0px 0px 5px pink;
+    -o-transform: scale(1.7,1.7); text-shadow:0px 0px 5px pink;
+    -ms-transform: scale(1.7,1.7); text-shadow:0px 0px 5px pink;
+    transform: scale(1.7,1.7); text-shadow:0px 0px 5px pink;
+ }
+ 100% {
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -o-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    transform: scale(1,1);
+ }
+
+}
